@@ -9,32 +9,48 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div id="myCarousel" class="carousel slide">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <div class="first-slide">
-      <img src="..." class="d-block w-100" alt="...">
+    <div class="item active first-slide">
+      <img src="" alt="Slide 1">
     </div>
-    <div class="second-slide">
-      <img src="..." class="d-block w-100" alt="...">
+
+    <div class="item second-slide">
+      <img src="" alt="Slide 2">
     </div>
-    <div class="third-slide">
-      <img src="..." class="d-block w-100" alt="...">
+
+    <div class="item third-slide">
+      <img src="" alt="Slide 3">
     </div>
-	   <div class="fourth-slide">
-      <img src="..." class="d-block w-100" alt="...">
+
+    <div class="item fourth-slide">
+      <img src="" alt="Slide 4">
     </div>
-	   <div class="fifth-slide">
-      <img src="..." class="d-block w-100" alt="...">
+
+    <div class="item fifth-slide">
+      <img src="" alt="Slide 5">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
 </div>
 
 	
